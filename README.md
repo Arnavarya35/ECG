@@ -15,7 +15,7 @@ This architecture uses a CNN model to classify ECG signals into two categories: 
 <img src="bin_architecture.png" alt="CNN Architecture for Binary Classification">
 ### Architecture 2: Multi-Class Classification (5 categories)
 This architecture uses a CNN model to classify ECG signals into five categories: Normal, Supraventricular, Ventricular, Fusion, and Unknown.
-<img src="multi_architecture.png" alt="CNN Architecture for Multi-class Classification">
+<img src="mul_architecture.png" alt="CNN Architecture for Multi-class Classification">
 ## Model Training and Evaluation
 The models were trained using the MIT-BIH dataset, and their performance was evaluated using metrics such as accuracy, precision, recall, and F1-score.
 
