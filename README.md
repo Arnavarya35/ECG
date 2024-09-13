@@ -28,3 +28,6 @@ The trained models were used to generate pickle files, which were then deployed 
 * Enter your ECG signal data in the input field and click the "Predict" button to receive a prediction from both models.
 ## Arduino ECG
 The Arduino code in the ardtopy file reads ECG signals from a sensor and stores them in a CSV file. The Python script in the ecg_signal_processing directory processes the ECG signals from the CSV file and prepares them as input for the trained models.
+
+## License
+This project is licensed under the MIT License. See `LICENSE` for details.
