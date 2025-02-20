@@ -23,8 +23,8 @@ The models were trained using the MIT-BIH dataset, and their performance was eva
 The trained models were used to generate pickle files, which were then deployed as a web application using Streamlit. The web application allows users to input their ECG signal data and receive a prediction from both models.
 
 ## How to Use
-* Clone the repository and navigate to the deployment directory.
-* Run streamlit run app.py to launch the web application in your default web browser.
+* Clone the repository.
+* Run streamlit run op_app.py to launch the web application in your default web browser.
 * Enter your ECG signal data in the input field and click the "Predict" button to receive a prediction from both models.
 ## Arduino ECG
 The Arduino code in the ardtopy file reads ECG signals from a sensor and stores them in a CSV file. The Python script in the ecg_signal_processing directory processes the ECG signals from the CSV file and prepares them as input for the trained models.
